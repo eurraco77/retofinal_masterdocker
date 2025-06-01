@@ -5,6 +5,7 @@ COPY package*.json ./
 RUN npm install
 COPY . .
 RUN chmod +x ./node_modules/.bin/eslint
+RUN chmod +x ./node_modules/.bin/jest
 RUN npm run lint && npm test
 
 # Etapa de producción
