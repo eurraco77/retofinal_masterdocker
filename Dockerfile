@@ -4,6 +4,7 @@ WORKDIR /app
 COPY package*.json ./
 RUN npm install
 COPY . .
+RUN chmod +x ./node_modules/.bin/eslint
 RUN npm run lint && npm test
 
 # Etapa de producción
