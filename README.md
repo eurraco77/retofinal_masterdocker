@@ -1,10 +1,10 @@
-# 🚀 Reto Final - MasterDocker
+# Reto Final - MasterDocker
 
 Este proyecto es una API REST sencilla desarrollada como parte del reto final de MasterDocker. Incluye integración completa con Docker, validación con ESLint, pruebas unitarias con Jest, análisis de vulnerabilidades con Trivy y pipeline de CI/CD usando GitHub Actions.
 
 ---
 
-## 🔧 Tech Stack
+## Tech Stack
 
 - Node.js + Express
 - Docker + Docker Compose
@@ -15,7 +15,7 @@ Este proyecto es una API REST sencilla desarrollada como parte del reto final de
 
 ---
 
-## 📦 Instalación
+## Instalación
 
 ```bash
 # Instalar dependencias
