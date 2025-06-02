@@ -48,5 +48,4 @@ jobs:
         ignore-unfixed: true
         vuln-type: os,library
         severity: CRITICAL,HIGH
-        ignore-policy: .trivyignore
         exit-code: 0
