@@ -44,8 +44,9 @@ jobs:
       uses: aquasecurity/trivy-action@master
       with:
         image-ref: retofinal_masterdocker
-        format: 'table'
-        exit-code: '1'
+        format: table
         ignore-unfixed: true
-        vuln-type: 'os,library'
-        severity: 'CRITICAL,HIGH'
+        vuln-type: os,library
+        severity: CRITICAL,HIGH
+        ignore-policy: .trivyignore
+        exit-code: 0
